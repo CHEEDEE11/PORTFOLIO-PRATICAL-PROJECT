@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Hero Section */
+#hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    max-width: 1440px;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.designation {
+    font-size: 1.2rem;
+    color: #d32f2f;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* About Me Section */
+#about-me {
+    /* background-color: #7f1d1d; */
+    color: #fff;
+    /* padding: 60px 0; */
+    text-align: left;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #441010;
+    border-radius: 10px;
+}
+
+.small-pic {
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+.about-text h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 600px;
+}
+
+.quote-author {
+    margin-top: 15px;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #ff6f61;
+}
+
+/* Quote Section */
+#quote-section {
+    background: url('bg-img.png ') no-repeat center center;
+    background-size: cover;
+    padding: 120px 0;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+#quote-section blockquote {
+    font-size: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    font-style: italic;
+}
+
+/* Footer */
+#footer {
+    background-color: #ffffff;
+    color:#361921;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#footer h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+#footer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#footer form button {
+    padding: 12px 20px;
+    background-color: #361921;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#footer form button:hover {
+    background-color: #b71c1c;
+}
+
+
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #36192133;
+}
+
+.navbar .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #361921;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #8161ff;
+}
+
+
+
+
+.about-text {
+    position: relative; /* Positioning context for vector alignment */
+ ; /* Center the header and text block */
+}
+
+h2 {
+    position: relative; /* This makes the vectors relative to the header */
+    display: inline-block; /* Keeps the vectors only near the header text */
+}
+
+.vector-left, .vector-right {
+    position: absolute;
+    top: 10%; /* Vertically aligns the vectors with the header */
+    transform: translateY(-50%); /* Ensures perfect vertical alignment */
+    width: 50px; /* Adjust based on your design */
+}
+
+.vector-left {
+    left: -70px; /* Adjust the distance from the header */
+}
+
+.vector-right {
+    right: -10px; /* Adjust the distance from the header */
+}
+
+.about-text  {
+    text-align: left;
+}
+ 
+.h2 {
+    text-align: center;
+}
+
+.mainf {
+    align-items: center;
+}
